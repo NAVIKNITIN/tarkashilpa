@@ -112,7 +112,7 @@ h4{
 }
 .select-tent{
   display: grid;
-  justify-content: start;
+  justify-items: start;
 
 }
 
@@ -143,5 +143,22 @@ h4{
   border: 1px solid gray;
   background-color: white;
   cursor: pointer;
-  padding:0.5rem 0.8rem
+  padding:0.5rem 0.8rem;
+}
+
+.submitted-data{
+  border:1px solid red ;
+  border-style: dotted;
+  width:20%;
+  margin:1rem
+}
+.submitted-data-main{
+  margin-top: 3rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+.btn-submit{
+  width: 10%;
+  min-width: fit-content;
+
 }

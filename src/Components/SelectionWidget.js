@@ -2,9 +2,6 @@ import React, { useState } from "react";
 
 const SelectionWidget = ({ options ,category,setColor,setSize}) => {
   const [active, setActive] = useState(null);
- 
-
-
   return (
     <div className="widget-main">
       {options &&
