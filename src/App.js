@@ -19,7 +19,7 @@ function App() {
             <br />
             Bootstrap components built from scratch
           </h4>
-          <div>
+          <div className="btn-main">
             <button className="btn-buynow pointer"> View all pages</button>
             <button className="btn-doc pointer">Documentation</button>
           </div>

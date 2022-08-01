@@ -58,7 +58,7 @@ const SelectTent = () => {
           />
         
         </div>
-        <div>
+        <div className="" style={{marginTop:"2rem"}}>
         <buton
             className="btn-widget btn-submit"
             onClick={(e) => {
